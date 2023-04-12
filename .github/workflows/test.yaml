@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: stepsOne
-        run: echo "wwwww"
+        run: |
+          echo "wwwww"
+          echo "ttttt"
+          echo "gggggg"
