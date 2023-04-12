@@ -9,6 +9,7 @@ on:
         
 jobs:
   jobOne:
+    runs-on: [self-hosted, linux, x64, dev]
     steps:
       - name: stepOne
         id: step_one
