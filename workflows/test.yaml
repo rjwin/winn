@@ -1,0 +1,16 @@
+name: test
+
+on:
+  workflow_dispatch:
+    inputs:
+      inputOne:
+        required: true
+        type: string
+        
+jobs:
+  jobOne:
+    steps:
+      - name: stepOne
+        id: step_one
+        run: |
+          echo "test step_one"
