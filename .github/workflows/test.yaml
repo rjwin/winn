@@ -9,9 +9,7 @@ on:
         
 jobs:
   jobOne:
-    runs-on: [self-hosted, linux, x64, dev]
+    runs-on: [self-hosted, linux]
     steps:
       - name: stepOne
-        id: step_one
-        run: |
-          echo "test step_one"
+        run: echo "test step_one"
